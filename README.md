@@ -47,7 +47,7 @@ Our pipeline evaluated **50 balanced multi-omic clinical profiles** (25 FTD Path
 └── README.md                                # System documentation
 
 ```
-
+---
 
 ###  Quick Start & Reproducibility Guide
 
@@ -68,9 +68,12 @@ To run the automated ablation study, injecting data corruption masks into the pr
 ```bash
 python evaluate_robustness.py
 ```
+
+---
+
 ### Future Work & Scalability Roadmap
-1. Database Expansion: Scale the multi-omic dataset from 50 to 500+ patient profiles to maximize statistical power, prevent overfitting, and capture rare clinical sub-variants.
+1. **Database Expansion**: Scale the multi-omic dataset from 50 to 500+ patient profiles to maximize statistical power, prevent overfitting, and capture rare clinical sub-variants.
 
-2. Multi-Agent Consensus Voting: Implement an ensemble layer where three distinct LLMs concurrently audit the same sample, requiring a 2/3 majority consensus to validate a diagnosis, pushing the margin of clinical error to absolute zero.
+2. **Multi-Agent Consensus Voting**: Implement an ensemble layer where three distinct LLMs concurrently audit the same sample, requiring a 2/3 majority consensus to validate a diagnosis, pushing the margin of clinical error to absolute zero.
 
-3. Bio-RAG Integration: Connect the pipeline to the PubMed/BioRxiv API to pull real-time biomedical scientific discovery abstracts into the prompt context window dynamically.
+3. **Bio-RAG Integration**: Connect the pipeline to the PubMed/BioRxiv API to pull real-time biomedical scientific discovery abstracts into the prompt context window dynamically.
